@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marketplace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Marketplace</h1>
+  <nav><a href="index.html">Home</a></nav>
+</header>
+
+<section>
+  <h2>Products</h2>
+
+  <div class="card">
+    <h3>Handwoven Basket</h3>
+    <p>Price: ₱250</p>
+    <button onclick="addToCart('Handwoven Basket')">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Traditional Necklace</h3>
+    <p>Price: ₱150</p>
+    <button onclick="addToCart('Traditional Necklace')">Add to Cart</button>
+  </div>
+  <div class="card">
+    <h3>Indigenous Fabric</h3>
+    <p>Price: ₱500</p>
+    <button onclick="addToCart('Indigenous Fabric')">Add to Cart</button>
+  </div>
+
+  <h2>Cart</h2>
+  <ul id="cartList"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
